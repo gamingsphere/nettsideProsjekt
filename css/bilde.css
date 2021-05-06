@@ -1,0 +1,95 @@
+body{
+	font-family: sans-serif;
+	background-color:lightgray;
+}
+#wrapper {
+	max-width: 960px;
+	margin:0 auto;
+	background-color: white;
+	padding:32px;
+}
+header{
+	background-color:turquoise;
+	height: 150px;
+	padding:4px;
+ }
+header h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+}
+header h2{
+	font-variant: small-caps; 
+	text-align: center;
+	color: white
+}
+
+nav{
+
+    background-color: gray;
+
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+
+    align-items: center;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    padding: 10px;
+
+}
+
+nav a{
+
+    color: white;
+	margin-left: 20px;
+	padding-right: 20px;
+
+    font-family: fantasy;
+}
+
+.Img{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 400px 400px;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	}
+
+
+.img-hlgde{
+	width: 100%;
+	height: 400px;
+	
+}
+.img-land{
+	width: 100%;
+	height: 400px;
+	
+}
+.img-norge{
+	width: 100%;
+	height: 400px;
+	
+}
+.img-russ{
+	width: 100%;
+	height: 400px;
+	
+}
+.img-voss2{
+	width: 100%;
+	height: 400px;
+}
+.img-voss{
+	width: 100%;
+	height: 400px;
+}
+.vid-apk{
+	width: 100%;
+	height: 400px;
+}
